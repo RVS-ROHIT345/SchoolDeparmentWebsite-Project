@@ -1,0 +1,126 @@
+/*
+Gnumber: G01379338
+Author: Ramena Venkata Satya Rohit
+*/
+.body{
+    background-color: rgb(184, 184, 184);
+}
+.navbar{
+    background-color: #006633;
+    box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.667);
+}
+
+.cs-deparment-link{
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.survey-container,.form-container{
+    border: 5px solid #00a151;
+    box-shadow: 2px 3px 2px 2px rgba(0, 255, 13, 0.375);
+    padding: 1%;
+}
+.survey-container{
+    margin-bottom: 1.5%;
+    background-color: rgba(238, 255, 48, 0.825);
+}
+
+.form-container{
+    background-color: rgba(254, 205, 58, 0.815);
+}
+
+.survey-heading{
+    color: #006633;
+    text-shadow: 3px 3px 2px rgb(145, 255, 0);
+}
+
+.user-message{
+    background-color: aliceblue;
+    border: 2px solid lawngreen;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.cookie-message{
+    margin-bottom: 0.5rem;
+}
+
+.greet{
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.new-user{
+    margin-left: 1.2em;
+}
+.error-message,.invalidziperrormessage{
+    color: red;
+}
+
+.form .container-field{
+    border: 2px solid #006633;
+    padding: 1%;
+    margin-bottom: 0.5%;
+}
+.style-label{
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.radio-label,.checkbox-label{
+    font-weight: bold;
+}
+
+.style-input,.city-value,.state-value{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.city-value,.state-value{
+    background-color: white;
+    height: 29px;
+}
+
+.month-input,.year-input{
+    width: 49.5%;
+    border: 2px solid black;
+}
+
+.required{
+    padding-left: 0.5%;
+    color: red;
+}
+.button-field{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button,.reset-button{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.reset-button{
+    margin-left: 1%;
+}
+.footer-container{
+    background-color: #006633;
+    margin-top: 1%;
+    border-top: 5px solid #FFCC33;
+}
+.back-to-top{
+    width: 25px;
+    height: 25px;
+    background-color: #FFCC33;
+    border: 2px solid #00cd66;
+    position: absolute;
+    top: 10px;
+    right: -40%;
+}
+.copy-right-message{
+    margin-top: 1%;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}

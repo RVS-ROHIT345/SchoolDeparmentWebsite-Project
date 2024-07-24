@@ -1,0 +1,198 @@
+<!----
+Gnumber: G01379338
+Author: Ramena Venkata Satya Rohit
+ ---->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Author name-->
+  <meta name="Author" content="Ramena Venkata Satya Rohit">
+  <title>Bootstrap Agency Page Template</title>
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="./css/survey.css" rel="stylesheet">
+  <link rel="icon" href="./images/R1.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <nav id="navigation" class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><img src="./images/csLogo.png" width="200" height="40" alt="CS Logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent d-flex">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <p class="text-center"><a class="btn btn-success btn-md cs-deparment-link" href="./ComputerScienceDeparment.html" role="button">CS Deparment</a></p>
+    </div>
+  </nav>
+  <!--header-->
+  <header class="survey-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center survey-heading">SURVEY FORM</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="user-message">
+    <div class="alert alert-success cookie-message">
+      <p class="greet"></p>
+    </div>
+    <a class="new-user" href="#">Not you?</a>
+  </section>
+  <!--form-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8 mx-auto offset-xl-0 col-xl-12 form-container">
+        <form autocomplete="on" class="form">
+          <div class="container-field">
+            <label for="username" class="style-label">USERNAME<span class="required">*</span> :</label>
+            <input type="text" id="username" class="style-input" name="username" 
+            placeholder="Rohit" required autofocus/>
+          </div>
+          <div class="container-field">
+            <label for="email" class="style-label">EMAIL<span class="required">*</span> :</label>
+            <input type="email" id="email" class="style-input" name="email" placeholder="Rohit@gmail.com" required/>
+          </div>
+          <div class="container-field">
+            <label for="phone" class="style-label">TELEPHONE NUMBER<span class="required">*</span> :</label>
+            <input type="tel" id="phone" class="style-input" name="phone" placeholder="123-456-7890" required/>
+          </div>
+          <div class="container-field">
+            <label for="date" class="style-label">DATE OF SURVEY<span class="required">*</span> :</label>
+            <input type="date" id="date" class="style-input" name="date" required/>
+          </div>
+          <div class="container-field">
+            <label for="url" class="style-label">URL :</label>
+            <input type="url" id="url" class="style-input" name="url" placeholder="https://www.linkedin.com"/>
+          </div>
+          <div class="container-field">
+            <label for="address" class="style-label">ADDRESS<span class="required">*</span> :</label>
+            <input type="text" id="address" class="style-input" name="address" placeholder="3412 Main St" required/>
+          </div>
+          <div class="container-field">
+            <label for="zip" class="style-label">ZIP<span class="required">*</span> :</label>
+            <input type="text" id="zip" class="style-input" name="zip" placeholder="22030" required/>
+            <span class="invalidziperrormessage"></span>
+          </div>
+          <div class="container-field">
+            <label for="city" class="style-label">CITY<span class="required">*</span> :</label>
+            <div id="city" class="city-value" name="city"></div>
+          </div>
+          <div class="container-field">
+            <label for="state" class="style-label">STATE<span class="required">*</span> :</label>
+            <div id="state" class="state-value" name="state"></div>
+          </div>
+          <div class="container-field">
+            <label for="graduation" class="style-label">HIGH-SCHOOL GRADUATION<span class="required">*</span> :</label>
+            <input list="graduation-month" id="graduation" class="month-input" placeholder="Month" required/>
+            <datalist id="graduation-month">
+              <option value="January">
+              <option value="February">
+              <option value="March">
+              <option value="April">
+              <option value="May">
+              <option value="June">
+              <option value="July">
+              <option value="August">
+              <option value="September">
+              <option value="October">
+              <option value="November">
+              <option value="December">     
+            </datalist>
+            <input type="text" id="year" class="year-input" placeholder="Year" required/>
+          </div>
+          <div class="container-field">
+            <div class="like-campus">
+              <label class="style-label">What did you like most about the campus?<span class="required">*</span></label>
+            </div>
+            <input type="checkbox" id="students" name="students" value="students">
+            <label for="students" class="checkbox-label"> Students</label><br>
+            <input type="checkbox" id="location" name="location" value="location">
+            <label for="location" class="checkbox-label"> Location</label><br>
+            <input type="checkbox" id="campus" name="campus" value="campus">
+            <label for="campus" class="checkbox-label"> Campus</label><br>
+            <input type="checkbox" id="atmosphere" name="atmosphere" value="atmosphere">
+            <label for="atmosphere" class="checkbox-label"> Atmosphere</label><br>
+            <input type="checkbox" id="dorm-rooms" name="dorm-rooms" value="dorm rooms">
+            <label for="dorm-rooms" class="checkbox-label"> Dorm rooms</label><br>
+            <input type="checkbox" id="sports" name="sports" value="sports">
+            <label for="sports" class="checkbox-label"> Sports</label><br>
+          </div>
+          <div class="container-field">
+            <div class="interested-university">
+              <label class="interested-label style-label">How did you come to know about the university ?<span class="required">*</span></label>
+            </div>
+            <input type="radio" id="friends" name="radio" value="friends">
+            <label for="friends" class="radio-label">Friends</label><br>
+            <input type="radio" id="television" name="radio" value="television">
+            <label for="television" class="radio-label">Television</label><br>
+            <input type="radio" id="Internet" name="radio" value="Internet">
+            <label for="Internet" class="radio-label">Internet</label><br>
+            <input type="radio" id="others" name="radio" value="others">
+            <label for="others" class="radio-label">Others</label><br>
+          </div>
+          <div class="container-field">
+            <label for="recommend-likelihood" class="style-label">What is likelihood of him/her recommending this school to other prospective students :</label>
+            <select name="recommend-likelihood" id="recommend-likelihood" class="style-input">
+              <option value="Very Likely">Very Likely</option>
+              <option value="Likely">Likely</option>
+              <option value="Unlikely">Unlikely</option>
+            </select>
+          </div>
+          <div class="container-field">
+            <label for="data-number" class="style-label">Data:</label>
+            <input type="text" id="data-number" class="style-input number-data"  name="data-number" placeholder="1,2,3,4,5,6,7,8,9,1"/>
+            <span class="error-message"></span>
+            <div class="row">
+              <div class="average col-lg-6">
+                <label for="average-number" class="style-label">Average:</label>
+                <input type="text" id="average-number" class="style-input result-avg" name="average-number" placeholder="Average"/>
+              </div>
+              <div class="maximum col-lg-6">
+                <label for="maximum-number" class="style-label">Maximum:</label>
+                <input type="text" id="maximum-number" class="style-input result-max" name="maximum-number" placeholder="Maximum"/>
+              </div>
+            </div>
+          </div>
+          <div class="container-field">
+            <label for="comment" class="style-label">ADDITIONAL COMMENTS :</label>
+            <textarea class="style-input" id="comment" rows="3" cols="10"></textarea>
+          </div>
+          <div class="button-field">
+            <button type="submit" class="btn btn-success submit-button">Submit</button>
+            <button type="button" class="btn btn-success reset-button">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer class="text-center footer-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <p class="copy-right-message">Copyright © George Mason University. All rights reserved.</p>
+        </div>
+        <div class="col-4">
+          <div class="back-to-top" title="back to top"><a href="#"><i class="fa fa-angle-double-up" style="font-size:24px"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/survey.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+
+</html>
